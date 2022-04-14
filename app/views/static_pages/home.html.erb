@@ -11,7 +11,7 @@
   <%= search_form_for @q, class: "input-group", url: root_path do |f| %>
     <%= f.search_field :teams_cont, class: "form-control-lg", placeholder: t(".soccer_match")%>
     <div class="input-group-append">
-      <%= f.submit :search, class: "btn btn-lg btn-outline-secondary" %>
+      <%= f.submit t(".btn_search"), class: "btn btn-lg btn-outline-secondary" %>
     </div>
   <% end %>
 </div>

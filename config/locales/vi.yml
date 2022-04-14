@@ -66,9 +66,30 @@ vi:
       signed_up_but_unconfirmed: Một email chứa đường dẫn xác nhận tài khoản đã được gửi cho bạn. Bạn vui lòng kiểm tra email.
       update_needs_confirmation: Tài khoản của bạn được cập nhật thành công, nhưng bạn cần xác nhận địa chỉ email mới. Vui lòng kiểm tra email và nhấn vào đường dẫn xác nhận tài khoản để hoàn tất việc thay đổi địa chỉ email.
       updated: Cập nhật tài khoản thành công.
+      edit:
+        edit_user: "Chỉnh sửa thông tin cá nhân"
+        password_notification: "(Bỏ qua nếu bạn không muốn đổi mật khẩu)"
+        password_length: "Tối thiểu %{length} ký tự"
+        password_confirm: "Xác nhận mật khẩu"
+        current_password: "mật khẩu hiện tại"
+        current_password_notification: "(Chúng tôi cần mật khẩu hiện tại để thay đổi mật khẩu mới)"
+        btn_update: "Cập nhật"
+        cancel_accont: "Xóa tài khoản của tôi"
+        unhappy: "Bạn thấy nóng trong người"
+        btn_cancel: "Xóa tài khoản"
+        link_back: "Quay lại"
     sessions:
       signed_in: Đăng nhập thành công.
       signed_out: Đăng xuất thành công.
+      new:
+        title: "Đăng nhập"
+        remember_me: "Lưu đăng nhập"
+        btn_login: "Đăng nhập"
+    shared:
+      links:
+        sign_up: "Đăng ký"
+        forgot_password: "Quên mật khẩu?"
+        log_in: "Đăng nhập"
     unlocks:
       send_instructions: Bạn sẽ nhận được email hướng dẫn cách mở khóa tài khoản trong vài phút nữa.
       send_paranoid_instructions: Nếu tài khoản của bạn tồn tại, bạn sẽ nhận được email hướng dẫn cách mở khóa tài khoản trong vài phút nữa.

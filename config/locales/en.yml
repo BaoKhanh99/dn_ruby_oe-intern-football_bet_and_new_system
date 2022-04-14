@@ -71,10 +71,33 @@ en:
       update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirmation link to confirm your new email address."
       updated: "Your account has been updated successfully."
       updated_but_not_signed_in: "Your account has been updated successfully, but since your password was changed, you need to sign in again."
+      edit:
+        edit_user: "Edit profile"
+        password_notification: "leave blank if you don't want to change it"
+        password_length: "characters minimum %{length}"
+        password_confirm: "Password confirm"
+        current_password: "Current password"
+        current_password_notification: "(we need your current password to confirm your changes)"
+        btn_update: "Update"
+        cancel_accont: "Cancel my account"
+        unhappy: "Unhappy"
+        btn_cancel: "Cancel account"
+        link_back: "Back"
     sessions:
       signed_in: "Signed in successfully."
       signed_out: "Signed out successfully."
       already_signed_out: "Signed out successfully."
+      new:
+        title: "Log in"
+        remember_me: "Remember me"
+        btn_login: "Log in"
+        sign_up: "Sign up"
+        forgot_password: "Forgot your password?"
+      shared:
+        links:
+          sign_up: "Sign up"
+          forgot_password: "Forgot your password?"
+          log_in: "Log in"
     unlocks:
       send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."
       send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."

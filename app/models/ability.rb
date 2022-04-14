@@ -9,6 +9,7 @@ class Ability
       can :manage, :all
     else
       can [:read, :create], Currency, user: user
+      can [:read], Bet, user: user
       can [:read, :create, :destroy], UserBet do |u|
         u.updated_at < u.bet.soccer_match.time
       end
